@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+body {
+  color: whitesmoke;
+  background-color: #240122;
+}
+
+.add-book-box {
+  color: black;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.book-list-box {
+  color: black;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.img {
+  padding: 1px;
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.list-group-item {
+  background-color: #600668;
+  color: #ffffff;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: #eec2e1;
+  color: #000000
+}
+.list-group-item:hover img {
+  margin: initial;
+  height: 80px;
+  width: 80px;
+}
